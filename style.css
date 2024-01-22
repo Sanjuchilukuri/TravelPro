@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Header section starts */
+.header{
+    padding:1rem 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img{
+    height: 50px;
+    width: 70px;
+}
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav-links ul li{
+    padding-right: 3rem;
+}
+.nav-links ul li a{
+    font-weight:600;
+    color: rgba(0, 0, 0, 0.71);
+    text-decoration: none;
+}
+button{
+    padding: .3rem 1rem;
+    font-weight:600;
+    color: rgba(0, 0, 0, 0.71);
+}
+.nav-links select{
+   border: none;
+   outline: none;
+}
+/* header section Closed */
+
+/* banner section starts */
+.banner{
+    padding: 0rem 4rem;
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+.banner-text{
+    padding-top: 3rem;
+    width: 50%;
+    height: 100%;
+}
+.banner-text-quote{
+    color: #DF6951;
+    font-weight: 700;
+}
+.banner-text-Big-text{
+    padding: 1rem 0rem;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 70px;
+    color: #181E4B;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner-text-about{
+    font-size: 1.1rem;   
+    padding-right: 5rem;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.446);
+    font-weight:550;
+}
+.banner-text-btn{
+    margin-top: 20px;
+    height: 3rem;
+    border-radius: 15px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background-color: #F1A501;
+    color: #fff;
+}
+.banner-image{
+    width: 50%;
+    height: 100%;
+}
+.banner-image img{
+    height: 450px;
+    width: 450px;
+    background-size: cover;
+}
+/* Banner section closed */
+
+/* design block*/
+.design-block1{
+    position: absolute;
+    right: 0px;
+}
+/* design block closed */
+
+/* category block */
+.category{
+    margin-top: 1rem;
+    padding: 2rem 4rem;
+}
+.category p,h1{
+    margin-top: 10px;
+    text-align: center;
+}
+.category p{
+    color: rgba(0, 0, 0, 0.446);
+    font-weight:630;
+    font-size: 1.3rem;
+}
+.services p{
+    padding: 0px 10px;
+    color: rgba(0, 0, 0, 0.646);
+    font-weight:530;
+    font-size: 1rem;
+}
+.services{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.services div{
+    width: 20%;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 1px rgb(227, 230, 240);
+}
+.services div>img{
+    margin-top: 1rem;
+    width: 50px;
+    height: 50px;
+}
+/* category block ends */
+
+/* Top selling starts */
+.top-selling{
+    margin-top: 1rem;
+    padding: 2rem 4rem;
+}
+.top-selling p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.546);
+    font-weight:630;
+}
+.trending{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trending p{ font-size: 1rem; }
+.place{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 1px rgb(227, 230, 240);
+}
+.place img{
+    height: 300px;
+    background-size: cover;
+}
+.name-price, .trip-duration{
+    display: flex;
+}
+.name-price{
+    padding: 0rem  1rem;
+    justify-content: space-between;
+}
+.trip-duration{
+    justify-content: flex-start;
+    align-items: center;
+}
+.trip-duration img{
+    height: 50px;
+    width: 50px;
+
+}
+/* Top selling ends*/
+
