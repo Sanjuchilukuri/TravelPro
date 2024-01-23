@@ -8,7 +8,7 @@
 
 .container{
     min-height: 100vh;
-    padding: 10px 110px;
+    padding: 10px 133px;
 }
 /* Header section starts */
 .header{
@@ -17,19 +17,24 @@
     justify-content: space-between;
     align-items: center;
 }
+.header .logo{
+    width: 75px;
+    height: 102px;
+}
 .nav-links ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    gap:40px;
+    gap:2.5rem;
 }
 .nav-links ul li a{
     font-weight: 500;
+    font-size: 0.93rem;
     color: black;
     text-decoration: none;
 }
-button{
+.nav-links button{
     padding: .3rem 1rem;
     font-weight:500;
     background-color: #fff;
@@ -49,36 +54,36 @@ button{
     width: 100%;
     min-height: 70vh;
 }
-.banner-text{
+.banner__text{
     /* padding-top: 4rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
 }
-.banner-text-quote{
+.banner__text--quote{
     color: rgb(227, 93, 45);
     font-weight: 600;
 }
-.banner-text-Big-text{
+.banner__text--big-text{
     padding: .8rem 0rem;
-    line-height: 70px;
-    font-size: 60px;
-    word-spacing: 10px;
+    line-height: 4.3rem;
+    font-size: 3.75rem;
+    word-spacing: 0.62rem;
     color: rgb(20, 20, 59);
     font-weight: 900;
 }
-.banner-text-about{   
+.banner__text--about{   
     padding-right: 3.3rem;
-    line-height: 25px;
+    line-height: 1.56rem;
     color: rgb(112, 111, 111);
-    font-size: 15px;
+    font-size: 0.93rem;
 }
-.banner-text-btn{
-    width: 150px;
-    margin-top: 15px;
+.banner__text--btn{
+    width: 9.375rem;
+    margin-top: 0.93rem;
     font-size: 1rem;
-    height: 60px;
+    height: 3.75rem;
     border-radius: 10px;
     font-weight: 500;
     border: none;
@@ -86,20 +91,20 @@ button{
     background: rgb(245, 171, 33);
     color: #fff;
 }
-.banner-image{
+.banner__image{
     width: 55%;
     height: 100%;
 }
-.banner-image img{
+.banner__image img{
     height: 100%;
     width: 120%;
-    margin-left:-100px;
+    margin-left:-6.25rem;
     background-size: contain;
 }
 /* Banner section closed */
 
 /* design block*/
-.design-block-plus{
+.plus-pattern{
     position: absolute;
     top:49.3rem;
     right: 0px;
@@ -113,7 +118,7 @@ button{
     margin-top: 3rem;
 }
 .category p{
-    font-size: 16px;
+    font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 800;
     text-align: center;
@@ -122,15 +127,15 @@ button{
 .category h1{
     text-align: center;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 2.5rem;
     color: rgb(6, 6, 49);
-    margin: 20px;
+    margin: 1.25rem;
 }
 .services{
-    margin-top: 35px;
+    margin-top: 2.18rem;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 1.875rem;
 }
 .services div{
     /* width: 200px; */
@@ -141,23 +146,23 @@ button{
     align-items: center;
 }
 .services h4{
-    margin: 10px auto;
-    font-size: 15px;
+    margin: 0.625rem auto;
+    font-size: 0.937rem;
   color: rgb(17, 17, 59);
   font-weight: bolder;
     
 }
 .services p{
     color: rgb(125, 105, 163);
-    font-size: 13px;
+    font-size: 0.812rem;
     font-weight: 600;
-    padding: 10px 30px;
+    padding: .625rem 1.875rem;
   /* text-align:start; */
 }
 .services div>img{
     margin-top: 1rem;
-    width: 70px;
-    height: 70px;
+    width: 4.375rem;
+    height: 4.375rem;
 }
 /* category block ends */
 
@@ -165,11 +170,11 @@ button{
 .top-selling{
     width: 100%;
     min-height: 40vh;
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 .top-selling p{
-    margin-top: 10px;
-    font-size: 16px;
+    margin-top: 0.625rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 800;
     text-align: center;
@@ -179,38 +184,38 @@ button{
     text-align: center;
     font-weight: 600;
     text-transform: capitalize;
-    font-size: 30px;
-    margin: 15px;
+    font-size: 1.875rem;
+    margin: 0.937rem;
     color: rgb(11, 11, 52);
 }
 .trending{
-    margin-top: 30px;
+    margin-top: 1.875rem;
     min-height: 50vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 .trending p{ 
-    font-size: 15px; 
+    font-size: 0.937rem; 
     font-weight: 500;
 }
 .place{
     width: 30%;
     display: flex;
     flex-direction: column;
-    border-radius: 18px;
+    border-radius: 1.125rem;
     box-shadow: 0px 0px 2px 1px rgb(227, 230, 240);
 }
 .place img{
     clip-path: polygon(0%0%, 100%0%, 100%95.5%, 0%95.5% );
-    height: 300px;
+    height: 18.75rem;
     background-size: cover;
 }
 .name-price, .trip-duration{
     display: flex;
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: 600;
 }
 .name-price{
@@ -222,8 +227,8 @@ button{
     align-items: center;
 }
 .trip-duration img{
-    height: 50px;
-    width: 50px;
+    height: 3.125rem;
+    width: 3.125rem;
 }
 /* Top selling ends*/
 
@@ -232,17 +237,17 @@ button{
     position: relative;
     min-height: 50vh;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 6.25rem;
 }
 .booking-container p{
     color: #5E6282;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
 }
 .booking{
     display: flex;
-    margin-top: 20px;
-    gap: 160px;
+    margin-top: 1.25rem;
+    gap: 9.375rem;
     .left-item{
         display: flex;
         flex-direction: column;
@@ -252,28 +257,28 @@ button{
         h1{
             text-transform: capitalize;
             font-weight: 500;
-            font-size: 40px;
+            font-size: 2.5rem;
         }
        
         .steps{
-            margin-top: 10px;
+            margin-top: 0.625rem;
             display: flex;
-            gap: 10px;
+            gap: 0.625rem;
 
             img{
-                margin-top: 8px;
-                width: 55px;
-                height: 40px;
+                margin-top: 0.5rem;
+                width: 3.437rem;
+                height: 2.5rem;
             }
             .title{
                 color: #5E6282;
-                font-size: 14px;
+                font-size: 0.875rem;
                 font-weight: 700;
             }
             .description{
                 padding-right: 3rem;
                 color: #5E6282;
-                font-size: 13.5px;
+                font-size: 0.843rem;
                 font-weight: 400;
             }
         }
@@ -281,31 +286,31 @@ button{
 
     .right-item{
         .card{
-            border-radius: 15px;
-            padding: 10px;
+            border-radius: 0.9375rem;
+            padding: 0.625rem;
             background-color: rgb(250, 250, 250);
             box-shadow:30px -10px 75px 7px rgb(211, 229, 244);
         }
         .title{
             color: black;
-            margin-top: 10px;
-            font-size: 15px;
+            margin-top: 0.625rem;
+            font-size: 0.9375rem;
             font-weight: 600;
         }
         .date, .people{
-            margin-top: 10px;
+            margin-top: 0.625rem;
             color: rgba(94, 98, 130, 0.836);
-            font-size: 14px;
+            font-size: 0.875rem;
             font-weight: 500;
         }
         .icons{
-            margin-top: 10px;
+            margin-top: 0.625rem;
         }
         .people-count{
-            gap: 10px;
+            gap: 0.625rem;
             display: flex;
         }
-        .design-block-love img{
+        .heart img{
             position: absolute;
             right: 165px;
             top:21.5rem;
@@ -313,8 +318,8 @@ button{
     }
 
     .floating-card{
-        padding: 8px 15px;
-        right:0px;
+        padding: 0.5rem 0.9375rem;
+        right:1.4375rem;
         top:15.1rem;
         background-color: #fff;
         position: absolute;
@@ -328,27 +333,26 @@ button{
             width: 100%;
             height: 100%;
             border-radius: 50%;
-            background-size: contain;
         }
         .ongoing{
+            margin-left: 0.5625rem;
+            display: inline-block;
             p{
                 color: rgba(94, 98, 130, 0.836);
-                font-size: 14px;
+                font-size: 0.9375rem;
                 font-weight: 500;
             }
             .trip{
                 color: #000;
-                font-size: 15px;
+                font-size: 0.9375rem;
                 font-weight: 600;
             }
-            margin-left: 9px;
-            display: inline-block;
         }
         .percentage{
             display: flex;
             flex-direction: column;
-            margin-top: 7px;
-            margin-left: 53px;
+            margin-top: 0.4375rem;
+            margin-left: 3.3125rem;
         }
         .first-line{
             display: flex;
@@ -361,12 +365,12 @@ button{
             font-weight: 500;
         }
         .progress-bar{ 
-            margin-top: 7px;
-            height: 5px;
-            width: 200px;
+            margin-top: 0.4375rem;
+            height: 0.3125rem;
+            width: 10rem;
             background-color: rgba(245, 245, 245, 0.831);
             .filled{
-                border-radius: 3px;
+                border-radius: 0.1875rem;
                 width: 43%;
                 height: 100%;
                 background-color: #8A79DF;
@@ -374,18 +378,14 @@ button{
         }
     }
 }
-
-/* .clearfix{
-    clear: both;
-} */
 /* Booking Section ends */
 
 /* subscribe-section starts*/
 .subscribe-section{
     border-top-left-radius: 120px;
-    margin-top: 120px;
+    margin-top: 7.5rem;
     background-color: rgba(220, 211, 245, 0.269);
-    min-height: 410px;
+    min-height: 25.625rem;
     width: 100%;
     position: relative;
     display: flex;
@@ -393,24 +393,25 @@ button{
     justify-content: space-evenly;
     align-items: center;
     h2{
-        font-size: 30px;
+        font-size: 1.875rem;
         color: #5E6282;
         padding: 0rem 6rem;
         text-align: center;
     }
     .input{
         display: flex;
-        gap: 10px;
+        gap: 0.625rem;
         width: 60%;
-        height: 50px;
+        height: 3.125rem;
         input{
             width: 70%;
             height: 100%;
-            background-image: url(./Images/Group\ 46.svg);
+            background-image: url(./Images/mail.svg);
             background-repeat: no-repeat;
             background-position: 10px 15px;
-            padding: 12px 20px 12px 40px;
+            padding: .75rem 1.25rem .75rem 2.5rem;
             border: #fff;
+            outline: none;
         }
         button{
             border: none;
@@ -424,28 +425,28 @@ button{
 /* subscribe-section ends */
 
 /* subscribe section design starts */
-.design-block-send{
+.send-newsletter{
     position: absolute;
-    top:141rem;
-    right: 75px;
+    top:140rem;
+    right: 5.75rem;
 }
-.design-block-spiral-right img{
+.spiral-right img{
     position: absolute;
     opacity: 0.15;
-    width: 200px;
-    height: 200px;
-    top:143rem;
-    right: 110px;
+    width: 12.5rem;
+    height: 12.5rem;
+    top:142rem;
+    right: 8.25rem;
     rotate: 270deg;
     z-index: -1;
 }
-.design-block-spiral-left img{
+.spiral-left img{
     position: absolute;
     opacity: 0.15;
-    width: 300px;
-    height: 250px;
-    top:152.6rem;
-    left: 110px;
+    width: 18.75rem;
+    height: 15.625rem;
+    top:151.8rem;
+    left: 8.125rem;
     z-index: -1;
 }
 /* subscribe section design ends*/
@@ -458,21 +459,21 @@ button{
     justify-content: space-between;
     ul li{
         list-style: none;
-        font-size: 14px;
+        font-size: 0.875rem;
         color: rgba(94, 98, 130, 0.836);
         font-weight: 600;
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
     }
 }
-.footer .Company-name
+.footer .company-name
 {
-    width: 180px;
+    width: 11.25rem;
     .title{
-        font-size: 35px;
+        font-size: 2.1875rem;
         font-weight: 500;
     }
     .description{
-        font-size: 10px;
+        font-size: 0.625rem;
         color: rgba(94, 98, 130, 0.836);
         font-weight: 500;
     }
@@ -491,13 +492,13 @@ button{
 .external-links .icons{
     display: flex;
     /* justify-content: space-between; */
-    gap:10px
+    gap:0.625rem;
 }
 .insta{
-    margin-top:15px;
+    margin-top:0.9375rem;
 }
 .external-links p{
-    font-size: 15px;
+    font-size: 0.9375rem;
     color: rgba(94, 98, 130, 0.836);
     font-weight: 600;
     margin: 1px 0px;
@@ -508,11 +509,11 @@ button{
 }
 .btns button{
     cursor: pointer;
-    height: 30px;
-    width: 100px;
+    height: 1.875rem;
+    width: 6.25rem;
     color: fff;
     background-color: #000;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
 }
 .playstore , .apple{
     display: flex;
@@ -521,7 +522,7 @@ button{
     justify-content: space-around;
     padding: 0;
     img{
-        font-size: 20px;
+        font-size: 1.25rem;
         margin: 0;
         color: #FFf;
     }
@@ -529,22 +530,22 @@ button{
         text-align: start;
         color: #FFf;
         margin: 0;
-        font-size: 7px;
+        font-size: 0.4375rem;
     }
 }
 .copyright{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
     color: rgba(94, 98, 130, 0.836);
     text-align: center;
     margin-top: 5rem;
 }
 /* footer section ends */
-.design-block-plus-down{
+.plus-pattern-down{
     position: absolute;
-    right: 10px;
+    right: 0.625rem;
     top:162rem;
     rotate: 90deg;
     z-index: -1;
-    clip-path: polygon(0%0%,100%0%,100%100%,35%100%,35%30%,0%40%);
+    /* clip-path: polygon(0%0%,100%0%,100%100%,35%100%,35%30%,0%40%); */
 }
