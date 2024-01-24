@@ -503,7 +503,8 @@
     font-weight: 600;
     margin: 1px 0px;
 }
-.btns{
+.btn {
+
     display: flex;
     gap:3px;
 }
